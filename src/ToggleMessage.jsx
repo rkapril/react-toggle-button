@@ -10,7 +10,7 @@ export default function ToggleMessage() {
       </button>
 
       {/* Message is hidden but space is reserved */}
-      <p style={{ visibility: show ? "visible" : "hidden", height: "20px" }}>
+      <p style={{ visibility: show ? "visible" : "hidden", height: "20px", fontWeight: "bold"}}>
         Hello, welcome to React!
       </p>
     </div>
